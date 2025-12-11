@@ -13,36 +13,24 @@ vendor/etc/AW_VMAX_RIGHT.bin
 vendor/etc/aurisys_config.xml
 vendor/lib/hw/audio.primary.mt6768.so
 vendor/lib/audio_common-aidl-cpp.so
-vendor/lib/audioclient-types-aidl-cpp.so
-vendor/lib/framework-permission-aidl-cpp.so
 vendor/lib/libaualgo_foundation.so
 vendor/lib/libaualgo_sst_component.so
 vendor/lib/libaudio_param_parser-vnd.so
-vendor/lib/libaudioclient_aidl_conversion.so
 vendor/lib/libaudiocompensationfilter_vendor.so
 vendor/lib/libaudiocompensationfilterc.so
 vendor/lib/libaudiocustparam_vendor.so
-vendor/lib/libaudiofoundation.so
 vendor/lib/libawinic_mtk_aurisys.so
-vendor/lib/libshmemcompat.so
 vendor/lib/libspeechparser_vendor.so
-vendor/lib/shared-file-region-aidl-cpp.so
 vendor/lib64/hw/audio.primary.mt6768.so
 vendor/lib64/audio_common-aidl-cpp.so
-vendor/lib64/audioclient-types-aidl-cpp.so
-vendor/lib64/framework-permission-aidl-cpp.so
 vendor/lib64/libaualgo_foundation.so
 vendor/lib64/libaualgo_sst_component.so
 vendor/lib64/libaudio_param_parser-vnd.so
-vendor/lib64/libaudioclient_aidl_conversion.so
 vendor/lib64/libaudiocompensationfilter_vendor.so
 vendor/lib64/libaudiocompensationfilterc.so
 vendor/lib64/libaudiocustparam_vendor.so
-vendor/lib64/libaudiofoundation.so
 vendor/lib64/libawinic_mtk_aurisys.so
-vendor/lib64/libshmemcompat.so
 vendor/lib64/libspeechparser_vendor.so
-vendor/lib64/shared-file-region-aidl-cpp.so
 
 # Audio (configs)
 vendor/etc/aualgo/aualgo_sst.conf
@@ -353,9 +341,6 @@ vendor/lib/hw/kmsetkey.trustonic.so
 vendor/lib64/hw/kmsetkey.default.so
 vendor/lib64/hw/kmsetkey.trustonic.so
 
-# Lights
-vendor/bin/hw/android.hardware.lights-service.mediatek
-
 # Media
 vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml
 vendor/lib/AVCSecureVencCA.so
@@ -382,14 +367,12 @@ vendor/etc/init/moto.init.rc
 vendor/etc/AW_DSP.bin
 vendor/etc/AW_SINWAVE_DSP.bin
 vendor/lib/libdapparamstorage.so
-vendor/lib64/jcos_client.so
 vendor/lib64/libdapparamstorage.so
 vendor/lib64/libdeccfg.so
 vendor/lib64/libdlbac4_oem.so
 vendor/lib64/libem_sensor_jni.so
 vendor/lib64/libpixsmart_vs.so
 vendor/lib64/libpixsmart_vs_pose.so
-vendor/lib64/se_extn_client.so
 
 # Motorola
 vendor/bin/hw/motorola.hardware.fdrcontrol@1.0-service
@@ -415,6 +398,7 @@ vendor/lib/libQstAlgo_Nfc.so
 vendor/lib/libQstAlgo_NoNfc.so
 vendor/lib/libmemsic_Nfc.so
 vendor/lib/libmemsic_NoNfc.so
+vendor/lib64/jcos_client.so
 vendor/lib64/libQstAlgo_Nfc.so
 vendor/lib64/libQstAlgo_NoNfc.so
 vendor/lib64/libmemsic_Nfc.so
@@ -422,6 +406,7 @@ vendor/lib64/libmemsic_NoNfc.so
 vendor/lib64/libpn560_fw.so
 vendor/lib64/ls_client.so
 vendor/lib64/nfc_nci_nxp.so
+vendor/lib64/se_extn_client.so
 vendor/lib64/vendor.nxp.nxpese@1.0.so
 vendor/lib64/vendor.nxp.nxpnfc@2.0.so
 
@@ -559,14 +544,7 @@ vendor/app/mcRegistry/9073f03a9618383bb1856eb3f990babd.tlbin
 vendor/app/mcRegistry/98fb95bcb4bf42d26473eae48690d7ea.tabin
 vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin
 
-# Vibrator
-vendor/bin/hw/android.hardware.vibrator-service.mediatek
-vendor/lib/libvibrator.so
-vendor/lib64/libvibrator.so
-
 # WiFi
-vendor/bin/hw/android.hardware.wifi@1.0-service-lazy
-vendor/bin/hw/wpa_supplicant
 vendor/bin/wfca
 vendor/lib/libwo.so
 vendor/lib64/libwo.so
