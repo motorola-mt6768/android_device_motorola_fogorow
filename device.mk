@@ -7,6 +7,11 @@
 # Inherit from mt6768-common
 $(call inherit-product, device/motorola/mt6768-common/mt6768.mk)
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service \
+    nfc_nci_nxp
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.fogorow.rc \

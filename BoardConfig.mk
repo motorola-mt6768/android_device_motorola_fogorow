@@ -41,5 +41,12 @@ BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(KERNEL_PATH)/vendor/*.ko)
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 
+# SKU
+ODM_MANIFEST_SKUS += nfc_ss nonfc_ss nonfc_dsds nfc_dsds
+ODM_MANIFEST_NFC_SS_FILES := $(DEVICE_PATH)/configs/vintf/sku/manifest_nfc_ss.xml
+ODM_MANIFEST_NONFC_SS_FILES := $(DEVICE_PATH)/configs/vintf/sku/manifest_nonfc_ss.xml
+ODM_MANIFEST_NONFC_DSDS_FILES := $(DEVICE_PATH)/configs/vintf/sku/manifest_nonfc_dsds.xml
+ODM_MANIFEST_NFC_DSDS_FILES := $(DEVICE_PATH)/configs/vintf/sku/manifest_nfc_dsds.xml
+
 # Inherit the proprietary files
 include vendor/motorola/fogorow/BoardConfigVendor.mk

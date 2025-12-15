@@ -387,9 +387,7 @@ vendor/lib64/motorola.hardware.fdrcontrol@1.0.so
 vendor/etc/init/networksetting.rc
 
 # NFC
-vendor/bin/hw/android.hardware.nfc@1.2-service
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
-vendor/etc/init/android.hardware.nfc@1.2-service.rc
 vendor/etc/init/init.vnd_p325a.nfc.rc
 vendor/etc/init/init.vnd_p325a.se.rc
 vendor/etc/libnfc-nci.conf
@@ -404,11 +402,7 @@ vendor/lib64/libQstAlgo_NoNfc.so
 vendor/lib64/libmemsic_Nfc.so
 vendor/lib64/libmemsic_NoNfc.so
 vendor/lib64/libpn560_fw.so
-vendor/lib64/ls_client.so
-vendor/lib64/nfc_nci_nxp.so
 vendor/lib64/se_extn_client.so
-vendor/lib64/vendor.nxp.nxpese@1.0.so
-vendor/lib64/vendor.nxp.nxpnfc@2.0.so
 
 # NVRAM
 vendor/bin/fuelgauged_nvram
