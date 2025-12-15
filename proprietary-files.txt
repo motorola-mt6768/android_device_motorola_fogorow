@@ -388,8 +388,6 @@ vendor/etc/init/networksetting.rc
 
 # NFC
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
-vendor/etc/init/init.vnd_p325a.nfc.rc
-vendor/etc/init/init.vnd_p325a.se.rc
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
 vendor/lib/libQstAlgo_Nfc.so

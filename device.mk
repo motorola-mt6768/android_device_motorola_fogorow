@@ -15,6 +15,7 @@ PRODUCT_PACKAGES += \
 # Rootdir
 PRODUCT_PACKAGES += \
     init.fogorow.rc \
+    init.sku.rc
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/motorola/fogorow/fogorow-vendor.mk)

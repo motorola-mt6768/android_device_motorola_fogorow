@@ -11,3 +11,10 @@ prebuilt_etc {
     sub_dir: "init/hw",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "init.sku.rc",
+    src: "etc/init.sku.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}

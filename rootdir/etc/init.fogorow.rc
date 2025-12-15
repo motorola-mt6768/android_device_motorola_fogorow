@@ -1,3 +1,5 @@
+import /vendor/etc/init/hw/init.sku.rc
+
 # FPSGO FBT Game
 on boot
     # allow af_noise
