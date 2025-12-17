@@ -41,6 +41,10 @@ BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(KERNEL_PATH)/vendor/*.ko)
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/properties/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
+
 # SKU
 ODM_MANIFEST_SKUS += nfc_ss nonfc_ss nonfc_dsds nfc_dsds
 ODM_MANIFEST_NFC_SS_FILES := $(DEVICE_PATH)/configs/vintf/sku/manifest_nfc_ss.xml
