@@ -543,6 +543,3 @@ vendor/lib64/libwo.so
 
 # Face
 vendor/lib64/libAncFaceDetect.so
-
-# Media (Dolby)
-vendor/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml
