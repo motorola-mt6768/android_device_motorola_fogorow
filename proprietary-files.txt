@@ -241,7 +241,7 @@ vendor/lib64/liboemcrypto.so
 vendor/lib64/libtlcWidevineModularDrm.so
 
 # Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-moto
 vendor/bin/fpc_tee_test
 vendor/framework/com.fingerprints.extension.jar
 vendor/lib64/hw/fpc.fingerprint.default.so
